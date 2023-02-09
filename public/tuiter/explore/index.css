@@ -1,68 +1,29 @@
-.wd-rounded-corners-all-around {
-    border-radius: 50px;
+.container {
+    margin-top: 10px;
 }
-.wd-rounded-corners-all-around-images {
-    border-radius: 15px;
-}
-.wd-spacer-bg {
-    background-color: rgb(26, 30, 33);
-}
-.wd-dark-grey {
-    background-color: rgb(47, 51, 54);
-    border: rgb(47, 51, 54);
-    color: white;
-}
-.wd-link-blue-color {
-    color: rgb(29,161,242);
-}
-.wd-padding-all-around {
-    padding: 16px;
-}
-.wd-border-highlight {
-    border-bottom: solid 3px;
-}
-.wd-padding-top-bottom {
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-.wd-padding-left {
-    padding-left: 16px;
-}
-.wd-margin-left {
-    margin-left: 16px;
-}
-.wd-margin-right {
-    margin-right: 12px;
-    float: right;
-}
-.wd-margin-top {
-    margin-top: 5px;
-}
-.wd-searchbar {
+#searchIcon {
     position: absolute;
-    margin-left: 30px;
-    margin-top: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
     display: inline;
 }
-.wd-padding-link-border {
-    padding: 16px 16px 0px 16px;
+#cogIcon {
+    display: inline;
 }
-.wd-padding-bottom {
-    padding-bottom: 16px;
+#search {
+    height: 35px;
+    border: 1px solid lightgrey;
 }
-.wd-relative-settings {
-    position: relative;
-    top: 10px;
+.wd-light-grey {
+    color: rgb(110, 118, 125);
 }
-.wd-margin-right-images {
-    margin-right: 16px;
+.wd-100 {
+    width: 100%
 }
-.wd-input-height {
-  height: 25px;
+.wd-height {
+    height: 38px;
+    width: 80px;
 }
-.wd-border-bottom-thick {
-    border-bottom: solid 2px rgb(47, 51, 54);
-}
-.wd-spacer {
-    height: 8px;
+.form-control {
+    text-indent: 20px;
 }

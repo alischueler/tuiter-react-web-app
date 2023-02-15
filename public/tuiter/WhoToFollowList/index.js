@@ -8,8 +8,8 @@ const WhoToFollowList = () => {
                 <b>Who to follow</b>
             </div>
      ${
-        who.map(one => {
-            return(WhoToFollowListItem(one));
+        who.map(user => {
+            return(WhoToFollowListItem(user));
         }).join('')
     }
      </div>

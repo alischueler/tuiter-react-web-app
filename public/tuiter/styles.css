@@ -1,0 +1,43 @@
+* {
+    background-color: black;
+    color: white;
+}
+.wd-border-color {
+    color: rgb(47, 51, 54);
+}
+
+.wd-light-grey {
+    color: rgb(110, 118, 125);
+}
+
+.wd-left-padding {
+    padding-left: 16px;
+}
+.wd-border {
+    border: solid 1px rgb(47, 51, 54);
+}
+.wd-clear {
+    clear: both;
+}
+.wd-row-left {
+    float: left;
+}
+.wd-row-right {
+    float: right;
+}
+.wd-flex {
+    display: flex;
+}
+.wd-fs-15 {
+    font-size: 15px;
+}
+.wd-fs-13 {
+    font-size: 13px;
+}
+.wd-border-bottom {
+    border-bottom: solid 1px rgb(47, 51, 54);
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }

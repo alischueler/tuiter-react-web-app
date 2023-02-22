@@ -18,8 +18,8 @@ const PostSummaryItem = (
                         {post.topic ? post.topic : ''}
                     </div>
                     <div>
-                        <b>{post.userName}</b>
-                        <i className="fas fa-check-circle"></i>
+                        <b>{post.userName} </b>
+                        <i className="bi bi-patch-check-fill"/>
                         <span className="text-secondary"> {post.time ? `- ${post.time}` : ''}</span>
                     </div>
                     <div>

@@ -1,0 +1,29 @@
+.wd-tabs li {
+    display: inline;
+}
+
+.wd-tabs {
+    padding-left: 0px;
+}
+
+.wd-selected {
+    border-bottom: 2px blue solid;
+    padding-bottom: 20px;
+}
+
+.wd-bottom-4 {
+    bottom: 4px;
+}
+#search {
+    height: 35px;
+    border: 1px solid lightgrey;
+}
+#searchIcon {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 6px;
+    display: inline;
+}
+.form-control {
+    text-indent: 20px;
+}

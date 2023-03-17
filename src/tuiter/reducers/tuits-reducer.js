@@ -37,6 +37,7 @@ const tuitsSlice = createSlice({
                 ...action.payload,
                 ...templateTuit,
                 _id: (new Date()).getTime(),
+                title: action.payload.tuit,
             })
         },
         deleteTuit(state, action) {

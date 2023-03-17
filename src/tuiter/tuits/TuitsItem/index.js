@@ -30,7 +30,7 @@ const TuitsItem = (
                     <div>
                         <b>{post.userName} </b>
                         <i className="bi bi-patch-check-fill text-primary"/>
-                        <span className="text-secondary"> {post.time ? `• ${post.time}` : ''}</span>
+                        <span> {post.handle} {post.time ? `• ${post.time}` : ''}</span>
                     </div>
                     <div>
                         {post.tuit}

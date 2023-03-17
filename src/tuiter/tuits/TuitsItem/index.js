@@ -1,36 +1,42 @@
 import React from "react";
+import TuitStats from "../TuitStats";
+import {useDispatch} from "react-redux";
+import {deleteTuit} from "../../reducers/tuits-reducer";
+
 const TuitsItem = (
     {
         post = {
             "topic": "Space",
             "userName": "SpaceX",
             "time": "2h",
-            "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
-            "image": "tesla.jpeg"
+            "tuit": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
+            "image": "spacex.jpeg"
         }
     }
 ) => {
+    const dispatch = useDispatch();
+    const deleteTuitHandler = (id) => {
+        dispatch(deleteTuit(id));
+    }
+
     return(
         <li className="list-group-item">
-            <div className="d-flex justify-content-between">
-                <div className="float-start me-sm-4 me-lg-2 me-xl-2 me-xxl-3">
-                    <div className="text-secondary">
-                        {post.topic ? post.topic : ''}
-                    </div>
+            <div>
+                <img src={`/images/${post.image}`} width="50px" height="50px"
+                     className="float-start rounded-circle" alt="post summary icon"/>
+                <div className="ms-5 ps-4">
+                    <i className="bi bi-x-lg float-end"
+                       onClick={() => deleteTuitHandler(post._id)}/>
                     <div>
                         <b>{post.userName} </b>
-                        <i className="bi bi-patch-check-fill"/>
-                        <span className="text-secondary"> {post.time ? `- ${post.time}` : ''}</span>
+                        <i className="bi bi-patch-check-fill text-primary"/>
+                        <span className="text-secondary"> {post.time ? `• ${post.time}` : ''}</span>
                     </div>
                     <div>
-                        <b>{post.title ? post.title : ''}</b>
+                        {post.tuit}
                     </div>
-                    <div className="text-secondary">
-                        {post.tweets ? `${post.tweets} Tweets` : ''}
-                    </div>
+                    <TuitStats info={post}/>
                 </div>
-                <img src={`/images/${post.image}`} width="87px" height="87px"
-                     className="float-end rounded-3" alt="post summary icon"/>
             </div>
         </li>
     );

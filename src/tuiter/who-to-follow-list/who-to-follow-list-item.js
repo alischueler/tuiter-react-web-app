@@ -12,7 +12,7 @@ const WhoToFollowListItem = (
                 alt="who to follow icon"/>
                 <div className="ps-xxl-3 ps-xl-2 ps-l-1">
                     <b>{who.userName} </b>
-                    <i className="bi bi-patch-check-fill"/><br/>
+                    <i className="bi bi-patch-check-fill text-primary"/><br/>
                     @{who.handle}
                 </div>
                 <button type="button"

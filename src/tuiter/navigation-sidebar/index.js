@@ -14,12 +14,12 @@ const NavigationSidebar = (
                     <i className="bi bi-twitter"/>
                 </Link>
                 <Link className={`list-group-item
-                        ${active === 'home'?'active':''}`} to="#">
+                        ${active === 'home'?'active':''}`} to="/tuiter">
                     <i className="bi bi-house-door-fill"/>
                     <span className="d-none d-xl-inline"> Home</span>
                 </Link>
                 <Link className={`list-group-item
-                        ${active === 'explore'?'active':''}`} to="#">
+                        ${active === 'explore'?'active':''}`} to="explore">
                     <i className="bi bi-hash"/>
                     <span className="d-none d-xl-inline"> Explore</span>
                 </Link>

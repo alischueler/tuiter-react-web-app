@@ -6,7 +6,7 @@ const PostSummaryItem = (
             "userName": "SpaceX",
             "time": "2h",
             "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
-            "image": "tesla.jpeg"
+            "image": "spacex.jpeg"
         }
     }
 ) => {
@@ -19,14 +19,11 @@ const PostSummaryItem = (
                     </div>
                     <div>
                         <b>{post.userName} </b>
-                        <i className="bi bi-patch-check-fill"/>
-                        <span className="text-secondary"> {post.time ? `- ${post.time}` : ''}</span>
+                        <i className="bi bi-patch-check-fill text-primary"/>
+                        <span className="text-secondary"> {post.time ? `• ${post.time}` : ''}</span>
                     </div>
                     <div>
-                        <b>{post.title ? post.title : ''}</b>
-                    </div>
-                    <div className="text-secondary">
-                        {post.tweets ? `${post.tweets} Tweets` : ''}
+                        {post.title ? post.title : ''}
                     </div>
                 </div>
                 <img src={`/images/${post.image}`} width="87px" height="87px"

@@ -5,6 +5,7 @@ const currentUser = {
     "userName": "Ali",
     "handle": "@ali",
     "image": "AliProfile.jpeg",
+    "profile": "AliProfile.jpeg",
 };
 
 const templateTuit = {

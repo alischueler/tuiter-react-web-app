@@ -22,7 +22,7 @@ const TuitsItem = (
     return(
         <li className="list-group-item">
             <div>
-                <img src={`/images/${post.image}`} width="50px" height="50px"
+                <img src={`/images/${post.profile}`} width="50px" height="50px"
                      className="float-start rounded-circle" alt="post summary icon"/>
                 <div className="ms-5 ps-4">
                     <i className="bi bi-x-lg float-end"

@@ -14,13 +14,12 @@ const PostSummaryItem = (
         <li className="list-group-item">
             <div className="d-flex justify-content-between">
                 <div className="float-start me-sm-4 me-lg-2 me-xl-2 me-xxl-3">
-                    <div className="text-secondary">
-                        {post.topic ? post.topic : ''}
+                    <div>
+                        {post.userName} <i className="bi bi-patch-check-fill text-primary"/>
+                        <span> {post.time ? `• ${post.time}` : ''}</span>
                     </div>
                     <div>
-                        <b>{post.userName} </b>
-                        <i className="bi bi-patch-check-fill text-primary"/>
-                        <span className="text-secondary"> {post.time ? `• ${post.time}` : ''}</span>
+                        <b>{post.topic} </b>
                     </div>
                     <div>
                         {post.title ? post.title : ''}

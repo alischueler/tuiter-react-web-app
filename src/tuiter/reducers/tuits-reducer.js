@@ -1,28 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
-import tuits from '../data/tuits.json';
 import {deleteTuitThunk, findTuitsThunk, createTuitThunk, updateTuitThunk}
     from "../../services/tuits-thunks";
 
 const initialState = {
     tuits: [],
     loading: false
-}
-
-const currentUser = {
-    "userName": "Ali",
-    "handle": "@ali",
-    "image": "AliProfile.jpeg",
-    "profile": "AliProfile.jpeg",
-};
-
-const templateTuit = {
-    ...currentUser,
-    "topic": "Lifestyle",
-    "time": "2h",
-    "liked": false,
-    "replies": 0,
-    "retuits": 0,
-    "likes": 0,
 }
 
 
@@ -71,4 +53,3 @@ const tuitsSlice = createSlice({
 });
 
 export default tuitsSlice.reducer;
-export const { likeTuit, createTuit, deleteTuit } = tuitsSlice.actions

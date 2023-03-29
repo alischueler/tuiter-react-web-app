@@ -15,7 +15,7 @@ const PostSummaryItem = (
             <div className="d-flex justify-content-between">
                 <div className="float-start me-sm-4 me-lg-2 me-xl-2 me-xxl-3">
                     <div>
-                        {post.userName} <i className="bi bi-patch-check-fill text-primary"/>
+                        {post.username} <i className="bi bi-patch-check-fill text-primary"/>
                         <span> {post.time ? `• ${post.time}` : ''}</span>
                     </div>
                     <div>

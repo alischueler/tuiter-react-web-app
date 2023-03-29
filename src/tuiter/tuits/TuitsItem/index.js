@@ -7,7 +7,7 @@ const TuitsItem = (
     {
         post = {
             "topic": "Space",
-            "userName": "SpaceX",
+            "username": "SpaceX",
             "time": "2h",
             "tuit": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
             "image": "spacex.jpeg"
@@ -36,7 +36,7 @@ const TuitsItem = (
                     <i className="bi bi-x-lg float-end"
                        onClick={() => deleteTuitHandler(post._id)}/>
                     <div>
-                        <b>{post.userName} </b>
+                        <b>{post.username} </b>
                         <i className="bi bi-patch-check-fill text-primary"/>
                         <span> {post.handle} {post.time ? `• ${post.time}` : ''}</span>
                     </div>

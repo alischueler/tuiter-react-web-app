@@ -8,11 +8,12 @@ const WhatsHappening = () => {
     const tuitClickHandler = () => {
         const newTuit = {
             tuit: whatsHappening,
-            userName: "Ali",
+            username: "Ali",
             handle: "@ali",
             title: "My life is great!",
             image: "AliProfile.jpeg",
-            time: "1h"
+            time: "1h",
+            topic: "Lifestyle"
         }
         dispatch(createTuitThunk(newTuit));
         setWhatsHappening('');

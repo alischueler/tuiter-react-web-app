@@ -1,0 +1,28 @@
+[{ "_id": 123, "topic": "Space", "userName": "SpaceX", "handle": "@spacex",
+  "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
+  "time": "2h",   "image": "tesla.jpeg", "profile": "spacex.jpeg",
+  "liked": true,
+  "replies": 123,
+  "retuits": 432,
+  "likes": 2345,
+  "tuit": "Did anyone even watch when rover went to the moon? It was a huge deal for us but no one other than those really into space seemed to join in on the fun. Check out this article to learn more!"
+},
+  { "_id": 234, "topic": "Space",   "userName": "SpaceX", "handle": "@spacex",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "time": "2h",   "image": "spacex.jpeg", "profile": "spacex.jpeg",
+    "liked": false,
+    "replies": 344,
+    "retuits": 553,
+    "likes": 2,
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars."
+  },
+  { "_id": 345, "topic": "Energy",  "userName": "Tesla", "handle":"@tesla",
+    "title": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
+    "time": "4d",   "image": "tesla.jpeg", "profile": "tesla.jpeg",
+    "liked": true,
+    "replies": 444,
+    "retuits": 23456,
+    "likes": 876,
+    "tuit": "Renewable energy this and renewable energy that. Let's all just drive Tesla's and help make the world a better place by fueling our lives with electricity, and get back time in our commute with self driving cars."
+  }
+]

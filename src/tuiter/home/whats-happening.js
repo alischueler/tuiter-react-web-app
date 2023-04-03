@@ -13,7 +13,9 @@ const WhatsHappening = () => {
             title: "My life is great!",
             image: "AliProfile.jpeg",
             time: "1h",
-            topic: "Lifestyle"
+            topic: "Lifestyle",
+            liked: false,
+            likes: 0,
         }
         dispatch(createTuitThunk(newTuit));
         setWhatsHappening('');

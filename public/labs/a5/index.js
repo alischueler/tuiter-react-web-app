@@ -180,7 +180,7 @@ console.log(greeting2)
 const init = () => {
     console.log('Hello world from jQuery');
 
-    const bindById = $('#bind-by-id');
+    const bindById = $('.bind-by-id');
     const bindByClass = $('.bind-by-class');
     console.log('Binding to DOM');
     console.log(bindById);
